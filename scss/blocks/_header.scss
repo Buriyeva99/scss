@@ -1,0 +1,33 @@
+.coffee--inner {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 20px;
+}
+.coffee--title {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.coffee--subtitle a{
+padding: 32px;
+text-decoration: none;
+font-family: 'Barlow';
+font-style: normal;
+font-weight: 700;
+font-size: 12px;
+line-height: 15px;
+letter-spacing: 0.923077px;
+text-transform: uppercase;
+color: #83888F;
+
+}
+
+.coffee--subtitle a:hover {
+    color:black;
+    
+}
+.coffee--title li {
+    list-style: none;
+
+}
