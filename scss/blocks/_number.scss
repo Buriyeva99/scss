@@ -1,0 +1,44 @@
+.number__inner {
+  display: flex;
+  justify-content: space-between;
+  
+  
+    
+}
+
+
+.number__select {
+   padding: 60px;
+   
+
+  img {
+      padding: 20px;
+    
+  }
+
+}
+
+.nimber__title {
+    h4 {
+font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 32px;
+line-height: 36px;
+color: #333D4B;
+
+    }
+
+    p {
+font-family: 'Barlow';
+font-style: normal;
+position: relative;
+right: 25px;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #333D4B;
+padding: 20px;
+
+    }
+}

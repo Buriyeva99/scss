@@ -1,7 +1,58 @@
- .inner-collection {
-     height: 500px;
-    background-image:linear-gradient(to black,white )
-    font-size:200px;
+.collection__title {
+  position: relative;
+  text-align: center;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.2) 0%,
+    transparent 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 180px;
+  font-weight: 900;
+  font-family: "Fraunces", "Roboto", sans-serif;
+  line-height: 1;
+  z-index: -1;
+  transform: translateY(50px);
+}
+
+
+.collection__item {
+    text-align: center;
+    
+}
+
+.collection__item-content h4 {
+  font-weight: 900;
+  font-family: 'Fraunces 9pt';
+  font-style: normal;
+  color: #333D4B;
+  font-size: 24px;
+}
+
+.collection__item-content p {
+font-family: 'Barlow';
+font-weight: 400;
+line-height: 26px;
+color: #333D4B;
+}
+
+
+.collection__list {
+  display: flex;
+  padding: 30px;
  
- }
- 
+}
+
+
+.collection__item {
+    padding: 30px;
+    
+}
+
+.collection__item-content p {
+    padding: 24px;
+}
+.collection__item-content h4 {
+   padding-top: 40px;
+}

@@ -1,67 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-    <header class="headerwrapper">
-       <div class="container">
-           <div class="coffee--inner">
-               <div class="coffee-logo">
-                  <img src="./img/kofe.svg" alt="/"> 
-               </div>
-                <nav class="coffee__text">
-                    <ul class="coffee--title">
-                        <li class="coffee--subtitle">
-                        <a href="/">HOME</a>  
-                        </li>
-                        <li class="coffee--subtitle">
-                            <a href="/">ABOUT US</a>
-                        </li>
-                        <li class="coffee--subtitle">
-                            <a href="/">Create your plan</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div> 
-       </div>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Fraunces:opsz,wght@9..144,900&display=swap"
+      rel="stylesheet"
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&family=Fraunces:opsz,wght@9..144,900&display=swap" rel="stylesheet">
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__logo">
+            <img src="./img/kofe.svg" alt="/" />
+          </div>
+          <nav class="header__nav">
+            <ul class="header__menu">
+              <li>
+                <a href="/">HOME</a>
+              </li>
+              <li>
+                <a href="/">ABOUT US</a>
+              </li>
+              <li>
+                <a href="/">Create your plan</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <!-- SECTION -->
     <main>
-     <section>
-         <div class="container">
-             <div class="wrapper">
-                <div class="coffee--img">
-        
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__content">
+              <h2>Great coffee made simple.</h2>
+              <p>
+                Start your mornings with the worlds best coffees. Try our
+                expertly curated artisan coffees from our best roasters
+                delivered directly to your door, at your schedule.
+              </p>
+              <a class="btn btn--primary" href="/">Create your plan</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- SECTION-1 COLLECTION-->
+      <section class="collection">
+        <div class="container">
+          <div class="collection__inner">
+            <h2 class="collection__title">our collection</h2>
+            <ul class="collection__list">
+              <li class="collection__item">
+                <img src="./img/expresso.svg" alt="/" />
+                <div class="collection__item-content">
+                  <h4>Gran Espresso</h4>
+                  <p>
+                    Light and flavorful blend with cocoa and black pepper for an
+                    intense experience.
+                  </p>
                 </div>
+              </li>
+              <li class="collection__item">
+                <img src="./img/expresso.svg" alt="/" />
+                <div class="collection__item-content">
+                  <h4>Gran Espresso</h4>
+                  <p>
+                    Light and flavorful blend with cocoa and black pepper for an
+                    intense experience.
+                  </p>
+                </div>
+              </li>
+              <li class="collection__item">
+                <img src="./img/expresso.svg" alt="/" />
+                <div class="collection__item-content">
+                  <h4>Gran Espresso</h4>
+                  <p>
+                    Light and flavorful blend with cocoa and black pepper for an
+                    intense experience.
+                  </p>
+                </div>
+              </li>
+              <li class="collection__item">
+                <img src="./img/expresso.svg" alt="/" />
+                <div class="collection__item-content">
+                  <h4>Gran Espresso</h4>
+                  <p>
+                    Light and flavorful blend with cocoa and black pepper for an
+                    intense experience.
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="choose">
+        <div class="container">
+          <div class="choose__inner">
+            <div class="choose__text">
+              <h2 class="choose__title">Why choose us?</h2>
+              <p>A large part of our role is choosing which particular coffees will be featured 
+                in our range. This means working closely with the best coffee growers to give 
+                you a more impactful experience on every level.</p>
+            </div>
+          </div>
+        </div>
+        <ul class="exlusive">
+          <li class="free-shopping">
+            <img src="./img/part.png" alt="/" />
+            <div class="best-title">
+              <h4>Best quality</h4>
+              <p>
+                Discover an endless variety of the worlds 
+                best artisan coffee from each of our roasters.
+              </p>
+              <button type="button"class="btn btn--grow">
+                  
+              </button>
+            </div>
+            </li>
+            <li class="free-shopping">
+              <img src="./img/gift.png" alt="/" />
+              <div class="best-title">
+                <h4>Exclusive benefits</h4>
+                <p>
+                  Special offers and swag when
+                   you subscribe, including 30% off your first shipment.
+                </p>
+                <button type="button"class="btn btn--grow">
+                  
+              </button>
+              </div>
+            </li>
+              <li class="free-shopping">
+                <img src="./img/car.png" alt="/" />
+                <div class="best-title">
+                  <h4>Free shipping</h4>
+                  <p>
+                    We cover the cost and coffee is delivered fast. Peak freshness: guaranteed.
+                  </p>
+                  <button type="button"class="btn btn--grow">
+                    
+                </button>
+                </div>
+              </li>
+        </ul>
+      </section>
+       <section class="works">
+         <div class="container">
+           <div class="works__inner">
+             <div class="works__type">
+               <h2 class="works__title">How it works</h2>
              </div>
-           
-           <div class="great-coffee">
-            <h2>Great coffee
-              made simple.</h2>
-              <p>Start your mornings with the worlds best coffees. Try our expertly curated artisan coffees from our best roasters delivered directly 
-                  to your door, at your schedule.</p>
-        </div>
-        <div class="btn--primary">
-            <a href="/">Create your plan</a>
-        </div>
-    </div>
-     </section>
-     <!-- SECTION-1 COLLECTION-->
-     <section>
-       <div class="container">
-           <div class="collection">
-               <div class="inner-collection">
-                 OUR COLLECTION 
-               </div>
+            </div>
+            <div class="pick">
+              <div class="circle">
+                <span>1</span>
+              </div>
+              
+              
+              <div class="circle">
+                <span>1</span>
+              </div>
+             
+              <div class="circle">
+                <span>1</span>
+              </div>
+            </div>
            </div>
-       </div>
-     </section>
+         </div>
+       </section>
+       <section class="number">
+        <div class="container">
+         <ul class="number__inner">
+           <li class="number__select">
+             <img src="./img/01.png" alt="01">
+             <div class="nimber__title">
+               <h4>Pick your
+                coffee</h4>
+                <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and
+                   we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+             </div>
+           </li>
+         
+        
+          <li class="number__select">
+            <img src="./img/02.png" alt="01">
+            <div class="nimber__title">
+              <h4>Pick your
+               coffee</h4>
+               <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and
+                  we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </div>
+          </li>
+        
+       
+          <li class="number__select">
+            <img src="./img/03.png" alt="01">
+            <div class="nimber__title">
+              <h4>Pick your
+               coffee</h4>
+               <p>Select from our evolving range of artisan coffees. Our beans are ethically sourced and
+                  we pay fair prices for them. There are new coffees in all profiles every month for you to try out.</p>
+            </div>
+          </li>
+        </ul>
+        <a class="btn btn--primary" href="/">Create your plan</a>
+        </div>
+       </section>
 
+       <section class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__logo">
+              <img src="./img/kofe.svg" alt="/" />
+            </div>
+            <nav class="footer__nav">
+              <ul class="footer__menu">
+                <li>
+                  <a href="/">HOME</a>
+                </li>
+                <li>
+                  <a href="/">ABOUT US</a>
+                </li>
+                <li>
+                  <a href="/">Create your plan</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="network">
+              <img src="./img/facebook.svg" alt="facebook">
+              <img src="./img/twitter.svg" alt="twitter">
+              <img src="./img/instagramm.svg" alt="instagramm">
+            </div>
+          </div>
+        </div>
+
+       </section>
     </main>
-</body>
+  </body>
 </html>

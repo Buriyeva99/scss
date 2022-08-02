@@ -1,0 +1,24 @@
+.btn {
+    padding: 15px 30px;
+    display: inline-block;
+    border-radius: 6px;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Fraunces", "Roboto", sans-serif;
+    font-weight: 900;
+    transition: 0.3s ease;
+    
+    &[type] {
+        cursor: pointer;
+    }
+
+    &--primary {
+        background-color: #0E8784;
+        color: white;
+
+        &:hover {
+            background-color: #66D2CF
+        }
+    }
+}

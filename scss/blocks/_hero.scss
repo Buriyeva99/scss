@@ -1,0 +1,33 @@
+.hero {
+   margin-bottom: 80px;
+}
+
+.hero__inner {
+   padding: 120px 80px;
+   border-radius: 10px;
+   background-image: url("./../img/coffee.png");
+   background-size: cover;
+   color: white;
+}
+
+.hero__content {
+   max-width: 500px;
+}
+
+.hero__content {
+   h2 {
+      font-size: 72px;
+      font-weight: 900;
+      font-family: "Fraunces", "Roboto", sans-serif;
+      margin-bottom: 32px;
+      line-height: 1;
+   }
+   h2:hover {
+    
+   }
+
+   p {
+      color: #FEFCF7;
+      margin-bottom: 56px;
+   }
+}
