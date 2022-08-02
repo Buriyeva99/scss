@@ -70,6 +70,11 @@ h1, h2, h3, h4, h5, h6, p {
   color: aquamarine;
 }
 
+.exlusive {
+  text-align: center;
+  padding-left: 90px;
+}
+
 .choose__title {
   font-family: 'Fraunces 9pt';
   font-style: normal;
