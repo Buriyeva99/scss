@@ -10,7 +10,7 @@
   -webkit-text-fill-color: transparent;
   font-size: 180px;
   font-weight: 900;
-  font-family: "Fraunces", "Roboto", sans-serif;
+  $font-family-heading;
   line-height: 1;
   z-index: -1;
   transform: translateY(50px);
@@ -31,7 +31,7 @@
 }
 
 .collection__item-content p {
-font-family: 'Barlow';
+$font-family-body;
 font-weight: 400;
 line-height: 26px;
 color: #333D4B;
