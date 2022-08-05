@@ -1,26 +1,21 @@
 .number__inner {
   display: flex;
   justify-content: space-between;
-  
-  
-    
 }
 
 
 .number__select {
    padding: 60px;
-   
-
   img {
       padding: 20px;
     
   }
-
+  
 }
 
 .nimber__title {
     h4 {
-font-family: 'Fraunces 9pt';
+font-family: $font-family-heading;
 font-style: normal;
 font-weight: 900;
 font-size: 32px;
@@ -30,7 +25,7 @@ color: #333D4B;
     }
 
     p {
-font-family: 'Barlow';
+font-family: $font-family-body;
 font-style: normal;
 position: relative;
 right: 25px;

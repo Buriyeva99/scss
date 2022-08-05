@@ -31,4 +31,26 @@
        text-align: center;
    }
 
-
+   .circle-line {
+    display: flex;
+    max-width: 845px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .line {
+    height: 1px;
+    width: 570px;
+    background-color: #fdd6ba;
+  }
+  .circle {
+    background: #fefcf7;
+    border: 1px solid #0e8784;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background-color: #fefcf7;
+  }

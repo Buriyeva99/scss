@@ -7,7 +7,11 @@
    border-radius: 10px;
    background-image: url("./../img/coffee.png");
    background-size: cover;
-   color: white;
+   color:var(--color-primary);
+
+   &--bitter {
+      background-image: url("./../../img/bitter-coffee.png");
+   }
 }
 
 .hero__content {
@@ -18,7 +22,7 @@
    h2 {
       font-size: 72px;
       font-weight: 900;
-      font-family: "Fraunces", "Roboto", sans-serif;
+      font-family: $font-family-heading;
       margin-bottom: 32px;
       line-height: 1;
    }
